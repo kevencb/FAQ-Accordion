@@ -38,6 +38,9 @@ body {
     border-radius: .5rem;
     background-color: var(--white);
     padding: 2rem 2rem;
+    @media (min-width: 720px){
+        padding: 2.5rem 2.5rem 2rem;
+    }
     color: var(--dark-purple);
     header {
         display: flex;
@@ -46,6 +49,12 @@ body {
         margin-bottom: 1rem;
         img {
             width: 1.5rem;
+        }
+        @media (min-width: 720px) {
+            font-size: 1.6rem;
+            img {
+                width: 2rem;
+            }
         }
     }
 

@@ -27,7 +27,7 @@ function displayElements(elements) {
             <button
               class="accordion__header__actions__button acccordion__button-plus"
               type="button"
-              aria-label=""
+              aria-labelledby="accordion"
             >
               <img
                 class="button-plus show"
