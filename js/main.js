@@ -3,7 +3,9 @@ const accordionList = document.querySelector(".accordions");
 // Consultamos la información de la BD y la enviamos mediante los parámetros para poder imprimirla en pantalla
 async function loadInfoAccordions() {
   try {
-    const resp = await fetch("../data.json");
+    const resp = await fetch(
+      "https://raw.githubusercontent.com/kevencb/FAQ-Accordion/refs/heads/main/data.json"
+    );
     const infoAccordion = await resp.json();
     displayElements(infoAccordion);
   } catch (error) {
