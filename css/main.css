@@ -27,7 +27,6 @@ body {
   body {
     background-image: url("../assets/images/background-pattern-desktop.svg");
     background-repeat: no-repeat;
-    background-position-y: 0px;
   }
 }
 .main {
@@ -42,6 +41,7 @@ body {
 @media (min-width: 720px) {
   .main {
     padding: 2.5rem 2.5rem 2rem;
+    margin-top: 180px;
   }
 }
 .main header {

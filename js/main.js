@@ -24,22 +24,16 @@ function displayElements(elements) {
             ${element.title}
           </h2>
           <div class="accordion__header__actions">
-            <button
-              class="accordion__header__actions__button acccordion__button-plus"
-              type="button"
-              aria-labelledby="accordion"
-            >
               <img
                 class="button-plus show"
                 src="./assets/images/icon-plus.svg"
-                alt=""
+                alt="Botón abrir"
               />
               <img
                 class="button-minus"
                 src="./assets/images/icon-minus.svg"
-                alt=""
+                alt="Botón cerrar"
               />
-            </button>
           </div>
         </header>
         <p class="accordion__description show">
