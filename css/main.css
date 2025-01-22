@@ -66,6 +66,7 @@ body {
   border-bottom: 1px solid var(--light-pink);
 }
 .main .accordions .accordion__header {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -73,6 +74,7 @@ body {
   cursor: pointer;
 }
 .main .accordions .accordion__header__title {
+  width: 100%;
   font-size: 1.2rem;
   line-height: 1.7rem;
 }
@@ -83,6 +85,7 @@ body {
   display: flex;
 }
 .main .accordions .accordion__header__actions__button {
+  cursor: pointer;
   background: none;
   border: none;
   padding: 0;
